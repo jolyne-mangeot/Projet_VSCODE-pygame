@@ -15,7 +15,7 @@ STATE_DICT = {
 pg.init()
 
 game = Control()
-game.setup_states(STATE_DICT, 'main_menu')
+game.setup_states(STATE_DICT, "main_menu")
 
 game.main_game_loop()
 pg.quit()

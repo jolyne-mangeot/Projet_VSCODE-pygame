@@ -46,7 +46,8 @@ class Main_menu(States, Main_menu_manager):
     def update(self):
         """
             trigger all changes such as mouse hover or changing selected
-            option
+            option, done after having checked in control class change on
+            done and quit attribute from menu_manager inheritance
         """
         self.update_menu()
         self.draw()
